@@ -13,7 +13,7 @@
             <div class="top">
                 <div class="title">
                     <h1>Simuler votre devis</h1>
-                    <button>Nouveau devis</button>
+                    <button onClick="window.location.reload();">Nouveau devis</button>
                 </div>
                 <div class="line"></div>
                 <div class="menu">
@@ -32,82 +32,73 @@
                 </div>
                 <div class="choise">
                     <div class="element">
-                        <input type="radio" id="2020-0001">
-                        <label for="2020-0001">2020-0001</label>
+                        <input type="radio" id="reference1" name="elem" ronClick="addElement" equired>
+                        <label for="reference">2020-0001</label>
                         <div class="about">
                             <div class="coloris">   
-                                <p>Coloris<br>
-                                Une couleur</p>
+                                <p>Coloris</p>
+                                <p>Calacatta Extra Lux</p>
                                 
                             </div>
                             <div class="epaisseur">
-                                <p>Epaisseur<br>
-                                   mm</p>
-                               
+                                <p>Epaisseur</p>
+                                <p>20mm</p>
                             </div>
                             <div class="image">
-                                <div class="color"></div>
-                                <p>Nom de couleur</p>
+                                <img src="https://www.oanna.be/dist/test/images/Starker/CER PP_Absolute Black.jpg">
+                                <p>Dekton</p>
                             </div>
                         </div>
                     </div>
                     <div class="element">
-                        <input type="radio" id="2020-0001">
-                        <label for="2020-0001">2020-0001</label>
+                        <input type="radio" id="reference2" name="elem">
+                        <label for="reference">2020-0001</label>
                         <div class="about">
                             <div class="coloris">   
-                                <p>Coloris<br>
-                                Une couleur</p>
-                                
+                                <p>Coloris</p>
+                                <p>Calacatta Extra Lux</p>
                             </div>
                             <div class="epaisseur">
-                                <p>Epaisseur<br>
-                                   mm</p>
-                               
+                                <p>Epaisseur</p>
+                                <p>20mm</p>
                             </div>
                             <div class="image">
-                                <div class="color"></div>
-                                <p>Nom de couleur</p>
+                                <img src="https://www.oanna.be/dist/test/images/Starker/Aeris.jpg">
+                                <p>Ceramique</p>
                             </div>
                         </div>
                     </div>
                     <div class="element">
-                        <input type="radio" id="2020-0001">
-                        <label for="2020-0001">2020-0001</label>
+                        <input type="radio" id="reference3" name="elem">
+                        <label for="reference">2020-0001</label>
                         <div class="about">
                             <div class="coloris">   
-                                <p>Coloris<br>
-                                Une couleur</p>
-                                
+                                <p>Coloris</p>
+                                <p>Calacatta Extra Lux</p>
                             </div>
                             <div class="epaisseur">
-                                <p>Epaisseur<br>
-                                   mm</p>
-                               
+                                <p>Epaisseur</p>
+                                <p>20mm</p>
                             </div>
                             <div class="image">
-                                <div class="color"></div>
-                                <p>Nom de couleur</p>
+                            <img src="https://www.oanna.be/dist/test/images/Starker/Alumino Nube.jpg">                                <p>Ceramique</p>
                             </div>
                         </div>
                     </div>
                     <div class="element">
-                        <input type="radio" id="2020-0001">
-                        <label for="2020-0001">2020-0001</label>
+                        <input type="radio" id="reference4" name="elem">
+                        <label for="reference">2020-0001</label>
                         <div class="about">
                             <div class="coloris">   
-                                <p>Coloris<br>
-                                Une couleur</p>
-                                
+                                <p>Coloris</p>
+                                <p>Calacatta Extra Lux</p>
                             </div>
                             <div class="epaisseur">
-                                <p>Epaisseur<br>
-                                   mm</p>
-                               
+                                <p>Epaisseur</p>
+                                <p>20mm</p>
                             </div>
                             <div class="image">
-                                <div class="color"></div>
-                                <p>Nom de couleur</p>
+                                <img src="https://www.oanna.be/dist/test/images/Starker/Angola Black.jpg">                                <p>Ceramique</p>
                             </div>
                         </div>
                     </div>
@@ -120,30 +111,76 @@
             <div class="details">
                 <h3>Détails de voter devis</h3>
                 <div class="line1"></div>
-                <p>Matière</p>
-                <p>Coloris</p>
-                <p>Epaisseur</p>
-                <div class="line2"></div>
-                <h4>Plan 01</h4>
-                <p>Dimensions</p>
-                <p>Surface</p>
-                <p>Longueur des chants</p>
-                <p>Taque de cuisson 01</p>
-                <p>Evier 01</p>
-                <p>Prise de courant</p>
-                <p>Autres façonnages</p>
-                <div class="line3"></div>
-                <h4>Crédences 01</h4>
-                <p>Dimensions</p>
-                <p>Surface</p>
-                <p>Longueur des chants</p>
-                <p>Découpes de prises</p>
-                <div class="line4"></div>
-                <h4>Commentaires</h4>
+                    <div class="content">
+                        <p>Matière</p>
+                        <p id="matiere"></p>
+                    </div>
+                
+                    <div class="content">
+                        <p>Coloris</p>
+                        <p id="coloris"></p>
+                   </div>
+                   <div class="content">
+                        <p>Epaisseur</p>
+                        <p id="epaisseur"></p>
+                    </div>
+                        <div class="line2"></div>
+                        <h4>Plan 01</h4>
+                    <div class="content">
+                        <p>Dimensions</p>
+                        <p id="dimensions"></p>
+                    </div>
+                    <div class="content">
+                        <p>Surface</p>
+                        <p id="surface"></p>
+                    </div>
+                    <div class="content">
+                        <p>Longueur des champs</p>
+                        <p id="longueur"></p>
+                    </div>
+                    <div class="content">
+                        <p>Taque de cuisson 01</p>
+                        <p id="taque"></p>
+                    </div>
+                    <div class="content">
+                        <p>Evier 01</p>
+                        <p id="evier"></p>
+                    </div>
+                    <div class="content">
+                        <p>Prise de courant</p>
+                        <p id="prise"></p>
+                    </div>
+                    <div class="content">
+                        <p>Autres façonnages</p>
+                        <p id="façonnage"></p>
+                    </div>
+                    <div class="line3"></div>
+                    <h4>Crédences 01</h4>
+                    <div class="content">
+                        <p>Dimensions</p>
+                        <p id="dimensionsC"></p>
+                    </div>
+                    <div class="content">
+                        <p>Surface</p>
+                        <p id="surfaceC"></p>
+                    </div>
+                    <div class="content">
+                        <p>Longueur des champs</p>
+                        <p id="longueurC"></p>
+                    </div>
+                    <div class="content">
+                        <p>Découpes de prises</p>
+                        <p id="decoupe"></p>
+                    </div>
+                    <div class="line4"></div>
+                    <div class="content">
+                        <h4>Commentaires</h4>
+                        <h4 id="commentaire"></h4>
+                    </div>
+                </div>
             </div>
-        </div>
-       
     </div>
-    <script>src="index.js"</script>
+    <script src="data.json"></script>
+    <script src="index.js"></script>
 </body>
 </html>

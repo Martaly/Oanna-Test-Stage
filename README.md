@@ -13,7 +13,7 @@ https://github.com/Martaly/Oanna-Test-Stage
 
 Suivant les étapes de Js et PHP, j'ai tenté le JS mais je me suis rendue compte que je m'étais pas assez entrainée en Js. Je n'ai donc pas réussie à rendre la page dynamique...
 
-Ce que j'ai tenté de faire est de mentionner toutes mes id dans le html et au click sur mes input radio, de faire appel à mon ficher json pour qu'il affiche la donnée que je lui demande, mais pas moyen. 
+Ce que j'ai tenté de faire est de mentionner toutes mes id dans le html et au click sur mes input radio, de faire appel à mon ficher json pour qu'il affiche la donnée que je lui demande en ajoutant cette donnée à l'endroit de l'id, mais pas moyen. 
 
 Il existe certainement une manière beaucoup plus simple et rapide mais je ne l'ai pas trouvée. Avez-vous le code pour que je puisse voir comment je peux le réaliser ?
 

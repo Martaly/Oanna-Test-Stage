@@ -14,7 +14,7 @@ body{
 .left{
     display: flex;
     flex-direction: column;
-    background-color: #dfd7d7;
+    background-color: #F7F7F7;
     border-radius: 20px;
     padding:2rem;
 }
@@ -38,10 +38,12 @@ body{
     border-radius: 5px;
     border: lightgrey 1px solid;
     text-transform: uppercase;
+    background-color: #F7F7F7;
 }
 .title button:hover{
     cursor: pointer;
     border:orangered 1px solid;
+    background-color: #F2F0EC;
 
 }
 .line{
@@ -58,14 +60,14 @@ body{
     border:none;
     text-transform: uppercase;
     color:gray;
-    background-color: #dfd7d7;
+    background-color: #F7F7F7;
         margin-right:2rem;
 }
 .menu button:hover{
     cursor:pointer;
     border-radius: 5px;
     border:orangered 1px solid;
-    background-color: #d3d3d3;
+    background-color: #F2F0EC;
 }
 .list{
     margin: 1rem;
@@ -120,10 +122,9 @@ h2, h3, h4{
     text-align: center;
 
 }
-.image .color{
+.image img{
     height: 6rem;
     width: 6rem;
-    background-color: lightblue;
     margin-top: -4rem;
 
 }
@@ -145,12 +146,18 @@ h2, h3, h4{
 }
 .right{
     width: 17rem;
-    background-color: #eeebeb;
+    background-color: #FBFBFB;
     padding:2rem;
     border-radius: 20px;}
 .right p{
     font-size: smaller;
 }
+.content{
+    display:flex;
+    justify-content: space-between;
+    height: 2rem;
+}
+
 .line1{
     height: 2px;
     background: orangered;
